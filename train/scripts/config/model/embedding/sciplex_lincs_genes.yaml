@@ -1,0 +1,3 @@
+# datapath: project_folder/embeddings/rdkit/sciplex_complete_lincs_genes_v2_rdkit2D_embedding.parquet
+datapath: /mnt/linjienas2/lzq/chemCPA/embeddings/rdkit/sciplex_complete_lincs_genes_v2_rdkit2D_embedding_chemberta.parquet
+model: rdkit

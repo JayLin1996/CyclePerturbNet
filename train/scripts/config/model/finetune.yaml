@@ -1,0 +1,19 @@
+defaults:
+  - hparams: default
+  - embedding: sciplex_lincs_genes
+  - additional_params: default
+
+enable_cpa_mode: False
+load_pretrained: True
+append_ae_layer: False
+# pretrained_model_path: ${training.save_dir}
+pretrained_model_path: /mnt/linjienas2/lzq/CyclePerturbNet/train/training_output
+pretrained_model_hashes: 
+  # model: omon82fh
+  # model: 5hng8ri7 # train on lincs
+  # model: 4ogoxdx5 # pretrained on lincs then train on sciplex
+  # model: gko39d6s # train on lincs
+  # model: "666"
+  # model: "train_ds200/best_model.pt"
+  # model: 45ogsasu # train on lincs
+  model: eolkxd1r # train on lincs

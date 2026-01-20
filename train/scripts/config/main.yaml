@@ -1,0 +1,11 @@
+defaults: 
+  - _self_
+  - model: finetune 
+  # - dataset:  sciplex_lincs_genes 29
+  - dataset:  combinatorial
+  - training: default 
+  - wandb: default
+  - hydra: default
+
+profiling.run_profiler: False
+profiling.outdir: "./"
